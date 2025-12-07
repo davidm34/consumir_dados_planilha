@@ -33,8 +33,9 @@ As bibliotecas são ferramentas adicionais que o código usa para mexer no Excel
 1.  Abra a pasta onde você salvou os arquivos.
 2.  Abra o terminal
 3.  No terminal, digite o seguinte comando e aperte Enter:
-
+    ```bash
     pip install -r requirements.txt
+    ```
 
 4.  Aguarde o fim da instalação. Se aparecerem mensagens de sucesso, está pronto.
 
@@ -45,11 +46,15 @@ Sempre certifique-se de que a planilha Excel original está fechada antes de rod
 1.  Abra o terminal na pasta do projeto (conforme explicado no Passo 3, item 1 e 2).
 2.  Para gerar a tabela de dimensão, digite o comando abaixo e aperte Enter:
 
+    ```bash
     python dimensao.py
+    ```
 
 3.  Para gerar a tabela de fatos, digite o comando abaixo e aperte Enter:
 
+    ```bash
     python fato.py
+     ```
 
 ## Resultado
 
