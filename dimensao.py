@@ -1,7 +1,7 @@
 import pandas as pd
 from openpyxl import load_workbook
 
-arquivo_origem = "CAETITE_INDICADORES CONTROLE MENSAL GECEN - 2024 - Macro Reservatório (1).xlsx"
+arquivo_origem = "CONTROLE MENSAL 2024.xlsx"
 arquivo_destino = "TRATAMENTO DE DADOS.xlsx"
 nome_aba_macro = 'LEITURA VOL. MACRO_m³'
 nome_aba_micro = 'LEITURA VOL. MICRO_m³'
