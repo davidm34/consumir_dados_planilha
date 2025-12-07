@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-file_path_origem = "CAETITE_INDICADORES CONTROLE MENSAL GECEN - 2024 - Macro Reservatório (1).xlsx"
+file_path_origem = "CONTROLE MENSAL 2024.xlsx"
 file_path_destino = "TRATAMENTO DE DADOS.xlsx"
 
 def limpar_valor(valor):
